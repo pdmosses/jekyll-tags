@@ -58,11 +58,11 @@ in Jekyll, and provided inspiration for this project. The contribution of the
 present project is an implementation of tag support including non-post pages,
 and facilitation of the creation of a collection of tag pages.
 
-[Tag Index]: /tag/
-[User Guide]: /docs/user-guide/
+[Tag Index]: {{ site.url }}{{ site.baseurl }}/tag/
+[User Guide]: {{ site.url }}{{ site.baseurl }}/docs/user-guide/
 [Jekyll]: https://jekyllrb.com
 [Liquid]: https://jekyllrb.com/docs/liquid/
-[Test Pages]: /docs/test/
-[Demo]: /docs/demo/
-[Profiling]: /docs/user-guide/profile.html
+[Test Pages]: {{ site.url }}{{ site.baseurl }}/docs/test/
+[Demo]: {{ site.url }}{{ site.baseurl }}/docs/demo/
+[Profiling]: {{ site.url }}{{ site.baseurl }}/docs/user-guide/profile.html
 [project site on GitHub]: https://github.com/pdmosses/tags

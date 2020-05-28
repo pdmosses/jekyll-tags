@@ -103,7 +103,7 @@ and to initialise variables to derived data.
 The [profiling] data shows the overhead due to tag processing. Some of it may be
 due to extensive use of inclusion of partials.
 
-[Profiling]: /docs/user-guide/profile.html
+[Profiling]: {{ site.url }}{{ site.baseurl }}/docs/user-guide/profile.html
 
 [Jekyll]: https://jekyllrb.com
 [Liquid]: https://jekyllrb.com/docs/liquid/

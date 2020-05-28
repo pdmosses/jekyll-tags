@@ -20,11 +20,11 @@ created but the tag has not been used.
 - [Test Page G](test-g.html) tags: #[Tag A], #[tag-b], #[tag-a], #[Tag C], #[Tag-A], #[Tag A], #[tag-a]
 - [Welcome Post]({{ site.url }}{{ site.baseurl }}/jekyll/update/2020/05/19/welcome-to-jekyll.html) tags: #[Tag A], #[Tag B]
 
-[Tags Index]: /tag/
-[tag-a]: /tag/tag-a.html
-[Tag A]: /tag/tag-a.html
-[tag-b]: /tag/tag-b.html
-[Tag B]: /tag/tag-b.html
-[Tag C]: /tag/tag-c.html
-[Tag D]: /tag/#tag-d.html
-[Tag Z]: /tag/tag-z.html
+[Tags Index]: {{ site.url }}{{ site.baseurl }}/tag/
+[tag-a]: {{ site.url }}{{ site.baseurl }}/tag/tag-a
+[Tag A]: {{ site.url }}{{ site.baseurl }}/tag/tag-a
+[tag-b]: {{ site.url }}{{ site.baseurl }}/tag/tag-b
+[Tag B]: {{ site.url }}{{ site.baseurl }}/tag/tag-b
+[Tag C]: {{ site.url }}{{ site.baseurl }}/tag/tag-c
+[Tag D]: {{ site.url }}{{ site.baseurl }}/tag/#tag-d
+[Tag Z]: {{ site.url }}{{ site.baseurl }}/tag/tag-z

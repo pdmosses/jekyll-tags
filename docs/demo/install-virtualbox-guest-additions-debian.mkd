@@ -1,0 +1,19 @@
+---
+layout: post
+title: "How to install VirtualBox Guest Additions on Debian-based Linux distributions"
+date: 2016/06/09
+update: 2020/03/04
+lang: en
+categories:
+- linux
+- debian
+tags:
+- linux
+- system
+- virtualization
+- virtualbox
+- debian
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

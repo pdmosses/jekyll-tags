@@ -1,0 +1,14 @@
+---
+layout: post
+title: "How to find out the Linux distribution name and version"
+date: 2016/05/05
+lang: en
+categories: 
+- linux
+tags:
+- linux
+- system
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

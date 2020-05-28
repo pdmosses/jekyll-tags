@@ -1,0 +1,25 @@
+{%- comment -%}
+  Use {%- include tags/font_size.html percent=NUMBER -%} where 0 <= NUMBER <= 100
+  to select a "FONT_SIZE" where 100% <= FONT_SIZE <= 200%
+  and assign it to font_size.
+
+  The font_size increases approximately as log percent.
+{%- endcomment -%}
+
+{%- if    include.percent <= 1 -%}
+  {%- assign font_size = "100%" -%}
+{%- elsif include.percent <= 2 -%}
+  {%- assign font_size = "120%" -%}
+{%- elsif include.percent <= 4 -%}
+  {%- assign font_size = "140%" -%}
+{%- elsif include.percent <= 8 -%}
+  {%- assign font_size = "160%" -%}
+{%- elsif include.percent <= 16 -%}
+  {%- assign font_size = "170%" -%}
+{%- elsif include.percent <= 32 -%}
+  {%- assign font_size = "180%" -%}
+{%- elsif include.percent <= 64 -%}
+  {%- assign font_size = "190%" -%}
+{%- else -%}
+  {%- assign font_size = "200%" -%}
+{%- endif -%}

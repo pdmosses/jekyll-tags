@@ -1,0 +1,17 @@
+---
+layout: post
+title: "The rather unusual, opinionated and commented ArchLinux installation"
+date: 2019/01/16
+updated: 2020/01/03
+lang: en
+categories:
+- linux
+- archlinux
+tags:
+- linux
+- archlinux
+thumbnail: /images/archlinux.svg
+authorId: n
+toc: true
+---
+Lorem ipsum ...

@@ -1,0 +1,23 @@
+ul.tag-list {
+  margin-left: 0;
+}
+
+li.tag-list-item {
+  display: inline;
+}
+
+p.tagcloud {
+  line-height: 1.6em;
+  font-size: 0.9em;
+  word-wrap: break-word;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: .5rem 1rem;
+}
+
+dt::after {
+  content: ":";
+}

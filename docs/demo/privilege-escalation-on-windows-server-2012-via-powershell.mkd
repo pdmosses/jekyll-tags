@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Privilege Escalation (EoP) on Windows Server 2012 via PowerShell (PS)"
+lang: en
+categories:
+  - security
+  - windows
+tags:
+  - security
+  - windows
+date: 2016/12/05
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

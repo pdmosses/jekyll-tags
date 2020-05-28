@@ -1,0 +1,47 @@
+{%- comment -%}
+  Use {% include tags/cloud.html %}
+  for an HTML paragraph containing a sequence of space-separated HTML links,
+  each scaled according to the number of uses.
+
+  The scale range is from 100% to 200%.
+  For max_size > 16, the scale is logarithmic.
+  For 16 >= max_size > 4, it is approximately linear.
+  For 4 >= max_size, it is approximately exponential.
+  
+  {%- for slug_6 in site_tag_slugs -%}
+    {%- assign tagged = site_tags | where_exp: "item", "item[0] == slug_6" | first -%}
+    {%- assign max_size = tagged.last.size | at_least: max_size -%}
+  {%- endfor -%}
+
+{%- endcomment -%}
+
+{%- include tags/site_tag_slugs.html -%}
+
+{%- include tags/site_tags.html -%}
+
+{%- assign max_size = 0 -%}
+{%- for slug_6 in site_tag_slugs -%}
+  {%- assign tagged_size = site_tags | where_exp: "item", "item[0] == slug_6" | first | last | size -%}
+  {%- assign max_size = tagged_size | at_least: max_size -%}
+{%- endfor -%}
+
+<p class="tagcloud">
+{%- for slug_6 in site_tag_slugs -%}
+  {%- assign tagged_size = site_tags | where_exp: "item", "item[0] == slug_6" | first | last | size -%}
+  {%- assign percent = tagged_size | times: 100 | divided_by: max_size -%}
+  {%- if max_size <= 16 -%}
+    {%- assign percent = percent | times: percent | divided_by: 100 -%}
+  {%- endif -%}
+  {%- if max_size <= 4 -%}
+    {%- assign percent = percent | times: percent | divided_by: 100 -%}
+  {%- endif -%}
+  {%- include tags/font_size.html percent=percent -%}
+  {%- include tags/tag_link.html tag=slug_6 font_size=font_size %}
+{% endfor -%}
+</p>
+
+{%- assign max_size = nil -%}
+{%- assign slug_uses_size = nil -%}
+{%- assign percent = nil -%}
+{%- assign tagged_size = nil -%}
+{%- assign font_size = nil -%}

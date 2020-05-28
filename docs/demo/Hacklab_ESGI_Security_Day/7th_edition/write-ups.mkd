@@ -1,0 +1,20 @@
+---
+layout: post
+title: "HackLab ESGI Security Day 7th Edition - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - web
+  - php
+  - ssrf
+  - gopher
+date: 2019/04/06
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

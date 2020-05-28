@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Nikto : protect your Apache server against a LFI vulnerability"
+lang: en
+categories:
+  - security
+tags:
+  - security
+  - vulnerability
+  - apache
+  - lfi
+date: 2016/07/07
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

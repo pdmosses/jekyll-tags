@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Virtualbox : change the UUID of a virtual disk"
+date: 2016/07/06
+lang: en
+categories: 
+- linux
+tags:
+- linux
+- virtualization
+- virtualbox
+- system
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

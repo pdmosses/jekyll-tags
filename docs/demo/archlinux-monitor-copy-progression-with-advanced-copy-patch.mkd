@@ -1,0 +1,15 @@
+---
+layout: post
+title: "ArchLinux - Monitor copy progression with Advanced Copy patch"
+date: 2016/11/13
+lang: en
+categories:
+- linux
+- archlinux
+tags:
+- linux
+- archlinux
+thumbnail: /images/archlinux.svg
+authorId: n
+---
+Lorem ipsum ...

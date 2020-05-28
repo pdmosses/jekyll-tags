@@ -1,0 +1,15 @@
+---
+layout: post
+title: "How to configure VM Auto Start in Hyper-V with PowerShell"
+date: 2016/04/07
+lang: en
+categories:
+- windows
+tags:
+- virtualization
+- windows
+- hyper-v
+thumbnail: /images/Windows_logo.svg
+authorId: n
+---
+Lorem ipsum ...

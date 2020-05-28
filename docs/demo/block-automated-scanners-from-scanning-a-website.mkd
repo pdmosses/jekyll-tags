@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Block automated scanners from scanning a website"
+date: 2018/07/08
+lang: en
+categories:
+- security
+- linux
+tags:
+- linux
+- nginx
+- fail2ban
+- web
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

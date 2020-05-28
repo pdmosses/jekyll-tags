@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Hack The Vote 2016 - 250 - Trump likes colors - Steganography"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - stegano
+date: 2016/11/05
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

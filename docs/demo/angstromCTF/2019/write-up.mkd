@@ -1,0 +1,18 @@
+---
+layout: post
+title: "ångstromCTF 2019 - Write-up"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - web
+  - nosql
+date: 2019/04/27
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Know status and health battery in command-line"
+date: 2014/08/03
+lang: en
+categories:
+- linux
+tags:
+- linux
+- system
+- opensuse
+thumbnail: /images/opensuse.svg
+authorId: n
+---
+Lorem ipsum ...

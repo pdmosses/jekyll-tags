@@ -1,0 +1,18 @@
+---
+layout: post
+title: "ArchLinux installation in VirtualBox"
+date: 2019/02/04
+update: 2019/12/26
+lang: en
+categories:
+- linux
+- archlinux
+tags:
+- linux
+- archlinux
+- virtualbox
+thumbnail: /images/archlinux.svg
+authorId: n
+toc: true
+---
+Lorem ipsum ...

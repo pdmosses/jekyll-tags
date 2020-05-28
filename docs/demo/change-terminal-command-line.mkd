@@ -1,0 +1,14 @@
+---
+layout: post
+title: "How to change of terminal in command-line with Linux"
+date: 2015/09/18
+lang: en
+categories:
+- linux
+tags:
+- linux
+- system
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

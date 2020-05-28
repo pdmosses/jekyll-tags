@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Writeups - Crypto - Oups it's all mixed"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - crypto
+date: 2016/05/26
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

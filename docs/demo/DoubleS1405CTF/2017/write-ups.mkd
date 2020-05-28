@@ -1,0 +1,19 @@
+---
+layout: post
+title: "DoubleS1405 CTF - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - misc
+  - crypto
+  - forensics
+  - web
+date: 2017/03/26
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

@@ -1,0 +1,23 @@
+{%- comment -%}
+  Use {%- include tags/tag_link.html tag=STRING font_size=STRING -%}
+  for an HTML link to the page where the specified tag is previewed.
+  
+  The font_size is optional; when specified, the corresponding style attribute
+  is added to the link.
+  
+  The variable site_tag_urls is initialised if nil.
+{%- endcomment -%}
+
+{%- capture attr -%}
+{%- if include.size %} style="font-size: {{ include.font_size }}"{%- endif -%}
+{%- endcapture -%}
+
+{%- unless site_tag_page_urls -%}
+  {%- assign site_tag_page_urls = site.tag | map: "url" -%}
+{%- endunless -%}
+{%- assign tag_url = include.tag | slugify | prepend: "/tag/" -%}
+{%- unless site_tag_page_urls contains tag_url -%}
+  {%- assign tag_url = include.tag | slugify | prepend: "/tag/#" -%}
+{%- endunless -%}
+<a href="{{ site.url }}{{ site.baseurl }}{{ tag_url }}" {{ attr }}>{{ include.tag }}</a>
+{%- assign tag_url = nil -%}

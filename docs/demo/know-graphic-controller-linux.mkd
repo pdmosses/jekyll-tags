@@ -1,0 +1,15 @@
+---
+layout: post
+title: "How to know the graphic controller under Linux"
+date: 2014/08/03
+lang: en
+categories: 
+- linux
+tags:
+- linux
+- graphic
+- system
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

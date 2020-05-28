@@ -1,0 +1,26 @@
+{% comment %}
+  Use {%- include tags/site_tags.html -%}
+  to create arrays of all pages and posts for all tags
+  and assign it to site_tags, which extends site.tags from posts to pages.
+  
+  Pages precede posts in the arrays. Pages are sorted by title. 
+  Posts are sorted as usual (reverse chronological).
+{% endcomment %}
+
+{%- unless site_tags -%}
+
+{%- include tags/site_tag_slugs.html -%}
+
+{%- assign site_tags = "" | split: "X" -%}
+
+{%- for slug_8 in site_tag_slugs -%}
+  {%- include tags/tagged_pages.html slug=slug_8 -%}
+  {%- assign slug_tagged_8 = "" | split: "X" | push: slug_8 | push: tagged_pages -%}
+  {%- assign site_tags = site_tags | push: slug_tagged_8 -%}
+{%- endfor -%}
+
+{%- assign tagged_pages = nil -%}
+{%- assign slug_tagged_8 = nil -%}
+{%- assign slug_8 = nil -%}
+
+{%- endunless -%}

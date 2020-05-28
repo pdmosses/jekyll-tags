@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Examine the codes sent by the keyboard"
+date: 2016/04/02
+lang: en
+categories:
+- linux
+tags:
+- linux
+- system
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

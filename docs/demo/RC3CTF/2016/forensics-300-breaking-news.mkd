@@ -1,0 +1,126 @@
+---
+layout: post
+title: "RC3 CTF - 300 - Breaking News - Forensics"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+date: 2016/11/22
+thumbnail: /images/ctf.png
+---
+## Information
+
+### Version
+
+| By      | Version | Comment
+| ---     | ---     | ---
+| Chill3d | 1.0     | Creation
+
+### CTF
+
+- **Name** : RC3 CTF 2016
+- **Website** : [http://ctf.rc3.club/](http://ctf.rc3.club/)
+- **Type** : Online
+- **Format** : Jeopardy
+- **CTF Time** : [link](https://ctftime.org/event/389)
+
+### Description
+
+N.C.
+
+### Solution
+
+For this challenge, we have a tar.gz file which is containing 20 zip files. These ones are storing txt files. There is a story is these txt files but we can't see any `2016` string so the flag isn't here...  
+So, why don't examinate the content of zip files to see if we missed something... In a directory where the 20 zip files are stored, we typed : `strings *`
+
+```
+GINg
+Chapter0.txtUT
+L+^=
+<U<i%[
+GINg
+Chapter0.txtUT
+Chapter10.txtUT
+Chapter10.txtUT
+MTYtRFUK
+Chapter11.txtUT
+;X c
+`s;
+(yCc
+_/_PK
+Chapter11.txtUT
+Chapter12.txtUT
+Wow, these Queebloid folks do not fool around.
+Chapter12.txtUT
+Chapter13.txtUT
+H,Q/V(
+,Q(NM
+Chapter13.txtUT
+Chapter14.txtUT
+0gZ+
+?6(U
+Chapter14.txtUT
+Chapter15.txtUT
+Y*mO
+.Xt]
+3oc$M8e
+Chapter15.txtUT
+S1lGCg==
+Chapter16.txtUT
+2VD%
+Chapter16.txtUT
+Chapter17.txtUT
+6[in
+Chapter17.txtUT
+Chapter18.txtUT
+,QH,(HM,*V(
+Chapter18.txtUT
+QkxTCg==
+Chapter19.txtUT
+*Cut to black*
+Chapter19.txtUT
+Chapter1.txtUT
+D{N1
+!Rk\
+^hE3n
+Chapter1.txtUT
+GIKZo=f
+Chapter2.txtUT
+GIKZo=f
+Chapter2.txtUT
+Chapter3.txtUT
+Chapter3.txtUT
+Chapter4.txtUT
+Chapter4.txtUT
+UkMK
+Chapter5.txtUT
+\DjX
+pZzU
+NR!R9
+K4r>&
+Chapter5.txtUT
+Chapter6.txtUT
+Chapter6.txtUT
+Chapter7.txtUT
+Chapter7.txtUT
+Chapter8.txtUT
+Chapter8.txtUT
+Chapter9.txtUT
+K)VH,JU(
+Chapter9.txtUT
+My0yMAo=
+```
+
+Some base64 encoded strings ?! Let decode `MTYtRFUK` + `S1lGCg==` + `QkxTCg==` + `UkMK` + `My0yMAo=`:
++ MTYtRFUK : *16-DU*
++ S1lGCg== : *KYF*
++ QkxTCg== : *BLS*
++ UkMK : *RC*
++ My0yMAo= : *3-20*
+
+So, if we put strings in order of chapter number, we obtain the flag `RC3-2016-DUKYFBLS`.
+Lorem ipsum ...

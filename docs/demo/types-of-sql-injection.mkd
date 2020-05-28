@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Types of SQL Injection"
+lang: en
+categories:
+  - security
+tags:
+  - security
+  - web
+  - sql
+date: 2018/05/09
+update: 2018/09/21
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

@@ -1,0 +1,16 @@
+{% comment %}
+  Use {% include tags/new.html %}
+  for listing tags that do not have pages in /_tag/.
+{% endcomment %}
+
+{%- include tags/site_tag_page.html -%}
+
+{% for slug in site_tag_slugs -%}
+  {%- unless site_tag_page_slugs contains slug -%}
+    
+  {% include tags/page.md slug=slug %}
+    
+  {% endunless -%}
+{%- endfor %}
+
+{%- assign slug = nil -%}

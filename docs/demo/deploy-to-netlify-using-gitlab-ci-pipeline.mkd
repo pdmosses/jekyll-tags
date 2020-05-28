@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Deploy a static website to Netlify using GitLab's CI/CD pipeline"
+date: 2019/08/19
+lang: en
+categories:
+- misc
+tags:
+- git
+- gitlab
+- netlify
+thumbnail: /images/git.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

@@ -1,0 +1,18 @@
+---
+layout: post
+title: "STEM CTF: Cyber Challenge 2019 Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - web
+  - system
+date: 2019/02/23
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

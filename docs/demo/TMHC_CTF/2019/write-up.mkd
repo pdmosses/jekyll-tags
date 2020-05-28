@@ -1,0 +1,21 @@
+---
+layout: post
+title: "TMHC CTF 2019 - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - web
+  - python
+  - flask
+  - SSTI
+  - jinja
+  - ctf
+date: 2019/12/23
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

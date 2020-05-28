@@ -1,0 +1,16 @@
+---
+layout: post
+title: "OSCP PWK Kali Linux 32bits VM back on track for VirtualBox"
+date: 2019/05/12
+lang: en
+categories:
+- linux
+tags:
+- linux
+- virtualbox
+- virtualization
+thumbnail: /images/tux-293844_640.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

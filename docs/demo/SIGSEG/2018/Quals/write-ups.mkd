@@ -1,0 +1,20 @@
+---
+layout: post
+title: "SIGSEGv1 Quals 2018 - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - web
+  - reverse
+  - misc
+  - python
+date: 2018/10/14
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

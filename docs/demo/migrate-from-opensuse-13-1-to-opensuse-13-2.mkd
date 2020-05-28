@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Migrate from openSUSE 13.1 to openSUSE 13.2"
+lang: en
+categories:
+  - linux
+  - opensuse
+tags:
+  - linux
+  - opensuse
+date: 2014-11-20 00:00:00
+thumbnail: /images/opensuse.svg
+---
++ Check that update repository is existing and activated, so display repository list with URLs display: `zypper repos --uri`.
++ Check you have this repository:
+
+```
+#  | Alias           | Name            | Enabled | Refresh | URI
+---+-----------------+-----------------+---------+---------+---------------------------------------
+1  | repo-update     | repo-update     | Yes     | Yes     | http://download.opensuse.org/update/13.1/
+```
+
++ If it  is not enabled, activate it: `zypper modifyrepo --enable repo-update`.
++ If it is not existing, add it: `zypper addrepo --check --refresh --name 'openSUSE-13.1-Update' http://download.opensuse.org/update/13.1/ repo-update`
++ Refresh and update repositories: `zypper refresh` and `zypper update`.
++ Check the repository list: `zypper lr`.
++ We'll need to remove all unofficial repositories one by one: `zypper rr alias`.
++ Save old repositories and put new ones:
+
+```
+cp -Rv /etc/zypp/repos.d /etc/zypp/repos.d.Old
+sed -i 's/13\.1/13.2/g' /etc/zypp/repos.d/*
+```
+
++ Refresh repositories again: `zypper refresh`.
++ Prefer tty1 (foreground virtual terminal) over X Session for the upgrade (**CTRL+ALT+F1** or `sudo chvt 1`).
++ During the upgrade DO NOT shutdown and DON'T interrupt Internet connexion or you can broke your system.
++ Start the distribution upgrade: `zypper dup`
+
+Source: [openSUSE.org](http://en.opensuse.org/Upgrade)
+Lorem ipsum ...

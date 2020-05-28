@@ -1,0 +1,27 @@
+{% comment %}
+  Use {%- include tags/tagged_size.html slug=STRING -%}
+  to count how many pages and posts have a tag whose slug is STRING
+  and assign it to tagged_size.
+{% endcomment %}
+
+{%- assign tagged_size = 0 -%}
+{%- for page_2 in site.pages -%}
+  {%- for tag_2 in page_2.tags -%}
+    {%- assign slug_2 = tag_2 | slugify -%}
+    {%- if slug_2 == include.slug -%}
+      {%- assign tagged_size = tagged_size | plus: 1 -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- for tagged_2 in site.tags -%}
+  {%- assign slug_2 = tagged_2.first | slugify -%}
+  {%- if slug_2 == include.slug -%}
+    {%- assign tagged_size = tagged_size | plus: tagged_2.last.size -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign page_2 = nil -%}
+{%- assign tag_2 = nil -%}
+{%- assign slug_2 = nil -%}

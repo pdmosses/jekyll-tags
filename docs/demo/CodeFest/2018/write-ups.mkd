@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Codefest CTF 2018 - Write-ups - Part 1"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - programming
+  - web
+date: 2018/09/01 16:00:00
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

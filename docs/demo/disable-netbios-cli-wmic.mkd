@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Disable NetBIOS in CLI with WMIC"
+date: 2015/12/20
+lang: en
+categories:
+- security
+- windows
+tags:
+- security
+- windows
+- netbios
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

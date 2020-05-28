@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Virtualbox : shared folder with guest"
+date: 2016/05/21
+lang: en
+categories:
+- linux
+tags:
+- linux
+- virtualbox
+- virtualization
+- system
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

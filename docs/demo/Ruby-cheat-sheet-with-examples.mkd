@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'Ruby cheat sheet with examples'
+date: 2017/02/20
+lang: en
+categories:
+- programming
+- ruby
+tags:
+- linux
+- programming
+- ruby
+thumbnail: /images/programming.jpg
+authorId: n
+---
+Lorem ipsum ...

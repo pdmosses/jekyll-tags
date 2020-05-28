@@ -1,0 +1,16 @@
+---
+layout: post
+title: "IceCTF - 45 - Hidden in Plain Sight - ReverseEngineering"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - reverse
+date: 2016/08/25
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

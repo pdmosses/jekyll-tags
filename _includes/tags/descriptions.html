@@ -1,0 +1,41 @@
+{%- comment -%}
+  Use {%- include tags/descriptions.html -%}
+  for an HTML description list showing all tags.
+
+  For each tag (used and/or having a tag-page) the description term is a link
+  to the page where the tag uses are listed.
+
+  The description shows how many times the tag is used; for tags with tag-pages,
+  it also shows the description field set in its front matter, if any.
+{%- endcomment -%}
+
+{%- include tags/site_tag_slugs.html %}
+
+{%- include tags/site_tags.html -%}
+
+{%- include tags/site_tag_page.html %}
+
+{%- assign site_slugs = site_tag_slugs | concat: site_tag_page_slugs | uniq | sort -%}
+
+<dl>
+{%- assign used = 0 -%}
+{% for slug_9 in site_slugs -%}
+{%- assign tagged_size = site_tags | where_exp: "item", "item[0] == slug_9" | first | last | size -%}
+  {%- unless tagged_size == 0 -%}
+    {%- assign used = used | plus: 1 -%}
+  {%- endunless -%}
+  {%- assign tag_page_url_9 = slug_9 | prepend: "/tag/" -%}
+  {%- if site_tag_page_slugs contains slug_9 -%}
+  {%- assign tag_page_9 = site.tag | where: "url", tag_page_url_9 | first %}
+  <dt>#<a href="{{ tag_page_url_9 }}" class="tag-link">{{ slug_9 }}</a></dt>
+  <dd>{{ tagged_size }} uses. {{ tag_page_9.description }}</dd>
+  {%- else %}
+  {%- assign tag_page_url_9 = slug_9 | prepend: "/tag/#" -%}
+  <dt>#<a href="{{ tag_page_url_9 }}" class="tag-link">{{ slug_9 }}</a></dt>
+  <dd>{{ tagged_size }} uses.</dd>
+  {% endif -%}
+{%- endfor %}
+</dl>
+<p>
+Used tags: {{ used }} of {{ site_slugs.size }}
+</p>

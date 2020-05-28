@@ -1,0 +1,15 @@
+---
+layout: post
+title: "ArchLinux - Pacman error: $filename exists in filesystem"
+date: 2017/03/21
+lang: en
+categories:
+- linux
+- archlinux
+tags:
+- linux
+- archlinux
+thumbnail: /images/archlinux.svg
+authorId: n
+---
+Lorem ipsum ...

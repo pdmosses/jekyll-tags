@@ -1,0 +1,16 @@
+---
+layout: post
+title: "CTF(x) - 50 - crash - Forensics"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+date: 2016/08/27
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

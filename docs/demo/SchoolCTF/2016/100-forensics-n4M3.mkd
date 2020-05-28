@@ -1,0 +1,16 @@
+---
+layout: post
+title: "School CTF - 100 - n4M3 - Forensics"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+date: 2016/11/07
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

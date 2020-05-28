@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Juniors CTF - 100 - Find The Gobblewonker - Network"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - network
+date: 2016/11/27
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

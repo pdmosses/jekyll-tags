@@ -1,0 +1,20 @@
+---
+layout: post
+title: "TAMUctf 19 - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - web
+  - nosql
+  - pcap
+  - sql
+date: 2019/03/04
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

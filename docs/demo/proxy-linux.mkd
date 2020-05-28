@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Setup a proxy under Linux"
+date: 2016/10/13
+update: 2017/04/06
+lang: en
+categories:
+- linux
+tags:
+- linux
+- system
+- proxy
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

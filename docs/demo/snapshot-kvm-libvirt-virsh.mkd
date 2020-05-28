@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Snapshot for KVM via libvirt with virsh"
+date: 2017/02/08
+lang: en
+categories:
+- linux
+tags:
+- linux
+- virtualization
+- system
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

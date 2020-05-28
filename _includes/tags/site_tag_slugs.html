@@ -1,0 +1,26 @@
+{%- comment -%}
+  Use {%- include tags/site_tag_slugs.html -%}
+  to create a sorted array of slugs of tags used on pages and posts 
+  and assign it to site_tag_slugs.
+  
+  Subsequent includes of this file have no effect.
+{%- endcomment -%}
+
+{%- unless site_tag_slugs -%}
+
+{%- assign site_tag_slugs = "" | split: "X" -%}
+{%- for page_5 in site.pages -%}
+  {%- for tag_5 in page_5.tags -%}
+    {%- assign slug_5 = tag_5 | slugify -%}
+    {%- assign site_tag_slugs = site_tag_slugs | push: slug_5 -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- for tagged_posts_5 in site.tags -%}
+  {%- assign slug_5 = tagged_posts_5[0] | slugify -%}
+  {%- assign site_tag_slugs = site_tag_slugs | push: slug_5 -%}
+{%- endfor -%}
+
+{%- assign site_tag_slugs = site_tag_slugs | uniq | sort -%}
+
+{%- endunless -%}

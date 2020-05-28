@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Common upload flaws"
+date: 2016/09/21
+lang: en
+categories:
+- security
+tags:
+- security
+- web
+- php
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

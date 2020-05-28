@@ -1,0 +1,16 @@
+---
+layout: post
+title: "noxCTF 2018 - Write-ups - Part 3"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - misc
+date: 2018/09/09 23:00:00
+thumbnail: /images/ctf.png
+authorId: i
+---
+Lorem ipsum ...

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Christmas Challenge 2017 - Write-up"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - programming
+date: 2017/12/26
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

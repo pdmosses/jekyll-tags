@@ -1,0 +1,16 @@
+---
+layout: post
+title: "ABCTF - 30 - TGIF - Programming"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - programming
+date: 2016/07/23
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

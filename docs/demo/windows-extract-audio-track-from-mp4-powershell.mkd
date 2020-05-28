@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Extract audio track from mp4 with PowerShell and ffmpeg in Windows"
+date: 2017/10/02
+lang: en
+categories:
+- windows
+tags:
+- windows
+thumbnail: /images/Windows_logo.svg
+authorId: n
+---
+Lorem ipsum ...

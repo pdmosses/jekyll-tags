@@ -1,0 +1,16 @@
+---
+layout: post
+title: "VolgaCTF 2017 Quals - VC - Crypto"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - crypto
+date: 2017/03/26
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

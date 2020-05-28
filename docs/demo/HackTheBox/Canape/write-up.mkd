@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Canape - Write-up - HackTheBox"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - linux
+  - recon
+  - network
+  - web
+  - eop
+  - python
+  - htb
+date: 2019/07/13
+thumbnail: /images/HackTheBox/canape.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

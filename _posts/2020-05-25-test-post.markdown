@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Test Post"
+date:   2020-05-25
+tags:
+  - Tag A
+---
+A test post, tagged with `Tag A`.

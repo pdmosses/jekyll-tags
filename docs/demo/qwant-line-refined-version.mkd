@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Qwant Lite : a refined version"
+date: 2015/10/05
+lang: en
+categories:
+- misc
+tags:
+- news
+thumbnail: /images/news.jpg
+authorId: n
+---
+Lorem ipsum ...

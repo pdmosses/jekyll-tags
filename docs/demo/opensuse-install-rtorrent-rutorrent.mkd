@@ -1,0 +1,16 @@
+---
+layout: post
+title: "OpenSUSE : Install rTorrent and ruTorrent"
+date: 2016/12/30
+lang: en
+categories:
+- linux
+- opensuse
+tags:
+- linux
+- opensuse
+- system
+thumbnail: /images/opensuse.svg
+authorId: n
+---
+Lorem ipsum ...

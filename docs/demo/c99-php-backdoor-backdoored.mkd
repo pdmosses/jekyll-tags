@@ -1,0 +1,17 @@
+---
+layout: post
+title: "c99.php : A backdoored backdoor"
+lang: en
+categories:
+  - security
+tags:
+  - security
+  - backdoor
+  - webshell
+  - php
+date: 2016/04/19
+update: 2018/09/01
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

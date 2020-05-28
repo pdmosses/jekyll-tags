@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Hide AES-256 encrypted zip file in a JPEG image"
+lang: en
+categories:
+  - security
+tags:
+  - security
+  - stegano
+  - crypto
+date: 2016/06/13
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

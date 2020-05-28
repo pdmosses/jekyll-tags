@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Learn Linux: Help"
+date: 2014/09/07
+lang: en
+categories:
+- linux
+tags:
+- linux
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

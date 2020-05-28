@@ -1,0 +1,13 @@
+---
+layout: post
+title: "How to remove pages from a PDF in command line on Linux"
+date: 2016/09/08
+lang: en
+categories:
+- linux
+tags:
+- linux
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

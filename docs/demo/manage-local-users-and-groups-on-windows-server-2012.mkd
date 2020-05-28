@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Manage local users and groups on Windows Server 2012"
+lang: en
+categories:
+  - windows
+tags:
+  - windows
+date: 2016/12/05
+thumbnail: /images/Windows_logo.svg
+authorId: n
+---
+Lorem ipsum ...

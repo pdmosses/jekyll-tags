@@ -1,0 +1,18 @@
+---
+layout: post
+title: "FreeBSD 10.3 is here"
+date: 2016/04/06
+lang: en
+categories:
+  - security
+  - news
+tags:
+- news
+- bsd
+- system
+- update
+- security
+thumbnail: /images/License_icon-bsd.svg
+authorId: n
+---
+Lorem ipsum ...

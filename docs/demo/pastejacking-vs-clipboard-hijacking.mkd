@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Pastejacking vs clipboard hijacking"
+lang: en
+categories:
+  - security
+  - news
+tags:
+  - security
+  - news 
+date: 2016/06/02
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

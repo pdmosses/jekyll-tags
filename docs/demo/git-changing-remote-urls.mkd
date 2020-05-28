@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Git changing remote URLs"
+date: 2016/06/20
+lang: en
+categories:
+- misc
+tags:
+- git
+thumbnail: /images/git.png
+authorId: n
+---
+Lorem ipsum ...

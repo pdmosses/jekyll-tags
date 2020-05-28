@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Hexpresso FIC CTF 2020 Prequalification Round - Write-ups of step 1-2"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - web
+  - javascript
+  - dns
+  - wireshark
+  - network
+  - ruby
+  - ctf
+date: 2019/12/24
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

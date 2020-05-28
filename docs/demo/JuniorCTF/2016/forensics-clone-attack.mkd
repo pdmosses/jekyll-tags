@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Juniors CTF - 200 - Clone Attack - Forensics"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+date: 2016/11/27
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

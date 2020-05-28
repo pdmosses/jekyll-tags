@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Juniors CTF - 500 - Lost everything but hope - Forensics"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+date: 2016/11/27
+thumbnail: /images/ctf.png
+---
+## Information
+
+### Version
+
+| By      | Version | Comment
+| ---     | ---     | ---
+| Chill3d | 1.0     | Creation
+
+### CTF
+
+- **Name** : Juniors CTF 2016
+- **Website** : [juniors.ctf.org.ru](https://juniors.ctf.org.ru/)
+- **Type** : Online
+- **Format** : Jeopardy
+- **CTF Time** : [link](https://ctftime.org/event/391)
+
+### Description
+
+> ![https://i.imgur.com/s9I4kim.jpg](https://i.imgur.com/s9I4kim.jpg)  
+>
+> - *screams*  
+> - Mabel: What's up, Gruncle???  
+> - Stan: I left a phone here and went to the store to sell something useless. When I got back I saw this  
+> - *shows a broken mobile*  
+> - Mabel: OMG!  
+> - Soos: Gonna get some insulating tape.  
+> - Stan: Restore the justice!  
+>
+> A few hours later  
+>
+> - Dipper: Hm, who could do this?.. Soos, I managed to restore some files, maybe you can help to find something. Will you?  
+> - Soos: Of course, Dipper.   
+
+## Solution
+
+We have a `something.rar` file, and in it, there is a `sdcard` folder.  
+If we open it, we find data from an Android phone. After searching on the each folders, admin gave a **hint** on Telegram : `Someone who likes vkontakte`.
+
+So I opened the `.vkontakte` folder and search any clue. There was an ogg file named `397087112_439151831` with size of 1Ko so we couldn't listen anything. I had the idea that a audio conversation must be between 2 account of vkontakt so the numbers are reprenting an id of these account...   
+Let's see if we can get a profile page of these accounts on vk.com :smirk: !
+
+Go on https://vk.com/id397087112, we find a profile page of a pig nammed `Waddles Mabelpig`. This pig posted on the social network the flag !  
+
+Flag: `waddles_the_d3stroyer` :tada:
+Lorem ipsum ...

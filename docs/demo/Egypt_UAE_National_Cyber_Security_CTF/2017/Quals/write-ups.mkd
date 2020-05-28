@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Egypt & UAE National Cyber Security CTF Quals 2017 - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+  - crypto
+  - web
+date: 2017/04/10
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

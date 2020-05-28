@@ -1,0 +1,15 @@
+---
+layout: post
+title: "DISPLAYMANAGER and WINDOWSMANAGER"
+date: 2014/08/03
+lang: en
+categories:
+- linux
+- opensuse
+tags:
+- linux
+- opensuse
+thumbnail: /images/opensuse.svg
+authorId: n
+---
+Lorem ipsum ...

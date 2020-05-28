@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Timisoara CTF 2018 Quals - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+  - crypto
+date: 2018/04/24
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

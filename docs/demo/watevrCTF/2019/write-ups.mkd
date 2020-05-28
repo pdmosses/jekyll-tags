@@ -1,0 +1,20 @@
+---
+layout: post
+title: "watevrCTF 2019 - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - stegano
+  - web
+  - git
+  - pickle
+  - ctf
+date: 2019/12/21
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

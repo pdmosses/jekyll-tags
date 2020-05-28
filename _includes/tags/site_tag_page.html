@@ -1,0 +1,20 @@
+{%- comment -%}
+  Use {%- include tags/site_tag_page.html -%}
+  to create an array of those slugs that have pages in the tag collection,
+  assigned to site_tag_page_slugs, and an array of their urls,
+  assigned to site_tag_page_urls.
+  
+  Subsequent includes of this file have no effect.
+{%- endcomment -%}
+
+{%- unless site_tag_page_slugs -%}
+
+{%- assign site_tag_page_slugs = "" | split: "X" -%}
+{%- for tag_page_10 in site.tag -%}
+  {%- assign slug_10 = tag_page_10.url | split: "/" | last -%}
+  {%- assign site_tag_page_slugs = site_tag_page_slugs | push: slug_10 -%}
+{%- endfor -%}
+
+{%- assign site_tag_page_urls = site.tag | map: "url" -%}
+
+{%- endunless -%}

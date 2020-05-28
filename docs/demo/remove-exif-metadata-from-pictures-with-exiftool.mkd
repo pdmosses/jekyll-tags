@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Remove EXIF metadata from pictures with exiftool"
+date: 2018/12/03
+lang: en
+categories:
+- misc
+tags:
+- linux
+- metadata
+- privacy
+thumbnail: /images/bash-161382_640.png
+authorId: n
+---
+Lorem ipsum ...

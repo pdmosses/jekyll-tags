@@ -1,0 +1,57 @@
+---
+layout: post
+title: "RC3 CTF - 100 - My Lil Droid - Forensics"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+date: 2016/11/22
+thumbnail: /images/ctf.png
+---
+## Information
+
+### Version
+
+| By      | Version | Comment
+| ---     | ---     | ---
+| Chill3d | 1.0     | Creation
+
+### CTF
+
+- **Name** : RC3 CTF 2016
+- **Website** : [http://ctf.rc3.club/](http://ctf.rc3.club/)
+- **Type** : Online
+- **Format** : Jeopardy
+- **CTF Time** : [link](https://ctftime.org/event/389)
+
+### Description
+
+> Sometimes not all files are needed.
+> Hint:  
+> – You probably don’t have to run it
+
+### Solution
+
+For this challenge, we have an apk file nammed `youtube.apk`. First, let decode it with apktool to see usefull file like AndroidManifest.xml : `apktool d youtube.apk`.
+
+We know that we are seeking a RC3-2016 flag, so go search in files we extracted :
++ `cd youtube`  
++ `find . -type f -exec grep RC3-2016 {} \;` => No result  
++ `find . -type f -exec grep RC3 {} \;` give this output :
+
+```
+    new-instance v1, Ljava/util/zip/CRC32;
+    invoke-direct {v1}, Ljava/util/zip/CRC32;-><init>()V
+    invoke-virtual {v1, v4, v8, v0}, Ljava/util/zip/CRC32;->update([BII)V
+    invoke-virtual {v1}, Ljava/util/zip/CRC32;->getValue()J
+```  
+
+Let's see if we can find 2016 string somewhere :   
+`find . -type f -exec grep 2016 {} \;` give a loot of string and the last one is a bit weird : `UkMz-2016-R09URU0yMQ==`
+
+Decode this in base64 : flag = `RC3-2016-GOTEM21`.
+Lorem ipsum ...

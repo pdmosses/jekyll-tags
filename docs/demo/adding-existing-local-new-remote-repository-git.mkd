@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Adding an existing local project to a new remote git repository"
+date: 2016/07/28
+lang: en
+categories:
+- misc
+tags:
+- linux
+- git
+thumbnail: /images/git.png
+authorId: n
+---
+Lorem ipsum ...

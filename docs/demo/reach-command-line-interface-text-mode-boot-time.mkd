@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Reach the command line interface (text mode) at boot time"
+date: 2014/08/03
+lang: en
+categories:
+- linux
+- opensuse
+tags:
+- linux
+- system
+- opensuse
+thumbnail: /images/opensuse.svg
+authorId: n
+---
+Lorem ipsum ...

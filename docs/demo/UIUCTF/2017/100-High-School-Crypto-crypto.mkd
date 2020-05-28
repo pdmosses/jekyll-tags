@@ -1,0 +1,16 @@
+---
+layout: post
+title: "UIUCTF 2017 - 100 - High School Crypto - Crypto"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - crypto
+date: 2017/04/30
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

@@ -1,0 +1,75 @@
+---
+layout: post
+title: "RC3 CTF - 50 - Somepang - Forensics"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+date: 2016/11/22
+thumbnail: /images/ctf.png
+---
+## Information
+
+### Version
+
+| By      | Version | Comment
+| ---     | ---     | ---
+| Chill3d | 1.0     | Creation
+
+### CTF
+
+- **Name** : RC3 CTF 2016
+- **Website** : [http://ctf.rc3.club/](http://ctf.rc3.club/)
+- **Type** : Online
+- **Format** : Jeopardy
+- **CTF Time** : [link](https://ctftime.org/event/389)
+
+### Description
+
+> Examine the file and find the flag.
+
+### Solution
+
+First, open the pcap file with Wireshark. We can see 98906 ICMP frames with the same length. Look at the data, it's always the same character repeated in each request/reply.
+The last packet data character is "=" so we can imagine that stuff encoded in base64.
+Let capture all characters and decode it to a file :
+
+```python
+# author : Chill3d
+import base64
+import os
+from scapy.all import *
+
+pcap=rdpcap("./somepang.pcap" )
+string=""
+i=0
+for packet in pcap:
+    i=i+1
+    if(i%2==0):
+        string+=str(packet)[-2:]
+
+file_t=open("flag","w" )
+file_t.write(base64.b64decode(string))
+file_t.close()
+
+print string
+print base64.b64decode(string)
+```
+
+This will create a file nammed flag. Let's see which type of file was produced :
+
+```
+$ file flag
+flag: JPEG image data, JFIF standard 1.01, aspect ratio, density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=2, orientation=upper-left], baseline, precision 8, 720x449, frames 3
+```
+
+Open it with a picture viewer :
+
+![image](https://i.imgbox.com/0usuyDAn.jpg)
+
+Flag : `RC3-2016-PANG-ME-LIKE-ONE-OF-YOU-FRENCH-GORILLAZ`
+Lorem ipsum ...

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Creating a simple python package with Distutils and upload it to PyPI"
+date: 2016/07/27
+lang: en
+categories: 
+- programming
+- python
+tags:
+- linux
+- programming
+- python
+thumbnail: /images/programming.jpg
+authorId: n
+---
+Lorem ipsum ...

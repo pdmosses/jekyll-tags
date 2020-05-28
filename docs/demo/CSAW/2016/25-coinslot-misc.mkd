@@ -1,0 +1,16 @@
+---
+layout: post
+title: "CSAW CTF - 25 - Coinslot - Misc"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - misc
+date: 2016/09/18
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

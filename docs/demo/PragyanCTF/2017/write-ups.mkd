@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Pragyan CTF 2017 - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - stegano
+date: 2017/03/04
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

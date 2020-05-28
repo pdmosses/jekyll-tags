@@ -1,0 +1,16 @@
+---
+layout: post
+title: "INS'hAck 2018 - Write-up"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - misc
+date: 2018/04/08
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

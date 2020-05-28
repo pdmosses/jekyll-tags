@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Display repository list in comand-line on openSUSE"
+lang: en
+categories:
+- linux
+- opensuse
+tags:
+- linux
+- opensuse
+- system
+date: 2014/08/03
+thumbnail: /images/opensuse.svg
+authorId: n
+---
+Lorem ipsum ...

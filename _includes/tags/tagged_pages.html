@@ -1,0 +1,34 @@
+{% comment %}
+  Use {%- include tags/tagged_pages.html slug=STRING -%}
+  to create an array of all pages and posts with a tag whose slug is STRING
+  and assign it to tagged_pages.
+  
+  Pages precede posts in the array. Pages are sorted by title. 
+  Posts are sorted as usual (reverse chronological).
+{% endcomment %}
+
+{%- assign tagged_pages = "" | split: "X" -%}
+{%- for page_4 in site.pages -%}
+  {%- for tag_4 in page_4.tags -%}
+    {%- assign slug_4 = tag_4 | slugify -%}
+    {%- if slug_4 == include.slug -%}
+      {%- assign tagged_pages = tagged_pages | push: page_4 -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- if tagged_pages.size > 1 -%}
+  {%- assign tagged_pages = tagged_pages | sort: "title" -%}
+{%- endif -%}
+
+{%- for tagged_4 in site.tags -%}
+  {%- assign slug_4 = tagged_4.first | slugify -%}
+  {%- if slug_4 == include.slug -%}
+    {%- assign tagged_pages = tagged_pages | concat: tagged_4.last -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign page_4 = nil -%}
+{%- assign tag_4 = nil -%}
+{%- assign slug_4 = nil -%}

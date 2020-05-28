@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Juniors CTF - 400 - Dirty Repo - Forensics"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - forensics
+date: 2016/11/27
+thumbnail: /images/ctf.png
+---
+## Information
+
+### Version
+
+| By      | Version | Comment
+| ---     | ---     | ---
+| Chill3d | 1.0     | Creation
+
+### CTF
+
+- **Name** : Juniors CTF 2016
+- **Website** : [juniors.ctf.org.ru](https://juniors.ctf.org.ru/)
+- **Type** : Online
+- **Format** : Jeopardy
+- **CTF Time** : [link](https://ctftime.org/event/391)
+
+### Description
+
+categories: admin, forensics
+
+> Gruncle Stan loves money very much and doesn't shun to use unacceptable tricks to get it. Not so far he started a new project with an aim to embezzlement of public funds. He hired some developers and decided to "borrow" source code. But one liberal-minded young man didn't like, that Stan's project is a plagiarism. This zealous fighter for justice decided to spoil one developer's project. Try to find out, what the malefactor added.
+>
+> Here are all developers' projects -> WORKDIRS
+
+## Solution
+
+In this challenge, we get a tar.gz file. In it, there are 20 tar.gz files containing git repo from openvpn.  
+So first, I unzip all tar.gz file, and I seek so differences between repos :
+
+```
+$ diff -r comp_1 comp_2
+Binary files comp_1/openvpn/.git/index and comp_2/openvpn/.git/index are differents
+$ diff -r comp_1 comp_3
+$ diff -r comp_1 comp_4
+$ diff -r comp_1 comp_5
+132a133
+> //FLAG -> gRunCle_StAn_tHe_woRsT_coDeR
+```
+
+Flag : gRunCle_StAn_tHe_woRsT_coDeR
+Lorem ipsum ...

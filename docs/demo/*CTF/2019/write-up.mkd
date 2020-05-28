@@ -1,0 +1,21 @@
+---
+layout: post
+title: "*CTF 2019 - Write-up"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - sql
+  - rce
+  - webshell
+  - CVE
+  - perl
+  - ctf
+date: 2019/05/01
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

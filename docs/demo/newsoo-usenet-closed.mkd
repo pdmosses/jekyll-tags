@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Newsoo: a French Usenet access provider has been closed"
+lang: en
+categories:
+  - misc
+tags:
+  - warez
+  - news
+  - piracy
+  - usenet
+date: 2016/03/27
+thumbnail: /images/Pirate_Flag.png
+authorId: n
+---
+Lorem ipsum ...

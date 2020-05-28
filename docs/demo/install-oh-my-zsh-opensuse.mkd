@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Install Oh-my-zsh on openSUSE"
+lang: en
+categories:
+  - linux
+  - opensuse
+tags:
+  - linux
+  - opensuse
+date: 2014-10-24 00:00:00
+thumbnail: /images/opensuse.svg
+authorId: n
+---
+Lorem ipsum ...

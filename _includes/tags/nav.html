@@ -1,0 +1,14 @@
+{%- comment -%}
+  Use {%- include tags/nav.html -%}
+  for an HTML list of links to where the tags are previewed.
+{%- endcomment -%}
+
+{%- if page.tags.size > 0 -%}
+<ul class="tag-list">
+  <li class="tag-list-item"><a href="{{ site.url }}{{ site.baseurl }}/tag/">Tags</a>:</li>
+  {% for tag in page.tags %}
+  <li class="tag-list-item">#{% include tags/tag_link.html tag=tag %}</li>
+  {% endfor %}
+  {%- assign tag = nil %}
+</ul>
+{%- endif -%}

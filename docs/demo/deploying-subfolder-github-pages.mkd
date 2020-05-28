@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Deploying a subfolder to GitHub Pages"
+date: 2016/07/27
+lang: en
+categories:
+- misc
+tags:
+- linux
+- git
+thumbnail: /images/git.png
+authorId: n
+---
+Lorem ipsum ...

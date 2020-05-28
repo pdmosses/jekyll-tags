@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Hack Dat Kiwi 2017 - Write-ups"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - web
+  - forensics
+date: 2017/10/15
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

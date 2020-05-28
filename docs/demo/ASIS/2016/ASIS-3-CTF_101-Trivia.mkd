@@ -1,0 +1,16 @@
+---
+layout: post
+title: "ASIS CTF Finals 2016 - 3 - CTF 101 - Trivia"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - trivia
+date: 2016/09/11
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

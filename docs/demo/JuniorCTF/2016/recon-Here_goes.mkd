@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Juniors CTF - 200 - Here goes ! - Recon"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - recon
+date: 2016/11/27
+thumbnail: /images/ctf.png
+---
+## Information
+
+### Version
+
+| By      | Version | Comment
+| ---     | ---     | ---
+| Chill3d | 1.0     | Creation
+
+### CTF
+
+- **Name** : Juniors CTF 2016
+- **Website** : [juniors.ctf.org.ru](https://juniors.ctf.org.ru/)
+- **Type** : Online
+- **Format** : Jeopardy
+- **CTF Time** : [link](https://ctftime.org/event/391)
+
+### Description
+
+categories: trivial, crypto, recon
+
+> ![https://i.imgur.com/mXTu7tU.png](https://i.imgur.com/mXTu7tU.png)
+
+### Solution
+
+This challenge was the first crypto challenge of the Junior CTF 2016.   
+First, it's pretty easy to know that the flag is encoded in shapes in the bottom left of this picture. But the question is, how to translate/decode it ?   
+
+Go on Google Image and proceed at a picture search...
+
+We find this link : http://gravityfalls.wikia.com/wiki/Nightmare_Head/Gallery   
+
+So, this capture come from `Gravity Falls`... Let's navigate on the wiki...
+
+A page is talking about a list of cryptogram, interesting :smirk: (http://gravityfalls.wikia.com/wiki/List_of_cryptograms)    
+
+Oh ! In Bill's symbol substitution cipher we find shapes that are on the picture ! (http://gravityfalls.wikia.com/wiki/List_of_cryptograms#Bill.27s_symbol_substitution_cipher).
+
+If we replace shapes by letters we find the following text : `FIXPROBLEMQUICKLYWITHGALVANIZEDJETS`.
+
+Flag : `FIXPROBLEMQUICKLYWITHGALVANIZEDJETS` :tada:
+Lorem ipsum ...

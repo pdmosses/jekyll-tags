@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Client Side Certificate Authentication in Nginx with Elliptic Curve Cryptography"
+date: 2017/06/25
+lang: en
+categories:
+- security
+tags:
+- linux
+- nginx
+- cryptography
+- security
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

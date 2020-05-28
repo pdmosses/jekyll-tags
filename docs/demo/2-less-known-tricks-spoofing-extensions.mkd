@@ -1,0 +1,16 @@
+---
+layout: post
+title: "2 less known tricks of spoofing extensions on Windows"
+lang: en
+categories:
+  - security
+  - windows
+tags:
+  - security
+  - windows
+date: 2016/10/13
+updated: 2018/01/09
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

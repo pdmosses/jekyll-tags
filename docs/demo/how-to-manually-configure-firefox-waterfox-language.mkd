@@ -1,0 +1,13 @@
+---
+layout: post
+title: "How to manually configure Firefox / Waterfox language"
+date: 2016/05/21
+lang: en
+categories: 
+- misc 
+tags:
+- firefox
+thumbnail: /images/firefox-logo.png
+authorId: n
+---
+Lorem ipsum ...

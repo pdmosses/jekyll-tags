@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Securinets CTF Quals 2019 - Write-up"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - web
+  - xxe
+  - lfi
+date: 2019/03/24
+thumbnail: /images/ctf.png
+authorId: n
+toc: true
+---
+Lorem ipsum ...

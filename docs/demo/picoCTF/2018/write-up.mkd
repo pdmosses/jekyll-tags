@@ -1,0 +1,17 @@
+---
+layout: post
+title: "picoCTF 2018 - Write-up"
+lang: en
+categories:
+  - writeups
+tags:
+  - security
+  - writeups
+  - ctf
+  - web
+  - php
+date: 2018/10/14
+thumbnail: /images/ctf.png
+authorId: n
+---
+Lorem ipsum ...

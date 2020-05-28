@@ -1,0 +1,18 @@
+---
+layout: post
+title: "How to convert VirtualBox vdi to KVM qcow2"
+date: 2016/04/13
+lang: en
+categories:
+- linux
+tags:
+- linux
+- system
+- virtualization
+- qemu
+- kvm
+- virtualbox
+thumbnail: /images/tux-293844_640.png
+authorId: n
+---
+Lorem ipsum ...

@@ -1,0 +1,17 @@
+---
+layout: post
+lang: en
+title: 'How to change OpenSSH port on CentOS 7'
+date: 2016/03/03
+categories:
+  - security
+  - centos
+tags:
+  - security
+  - linux
+  - centos
+  - ssh
+thumbnail: /images/security-265130_640.jpg
+authorId: n
+---
+Lorem ipsum ...

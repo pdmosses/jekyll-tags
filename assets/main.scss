@@ -3,4 +3,4 @@
 ---
 
 @import "minima";
-@import "{{ site.url }}{{ site.baseurl }}/assets/custom.css";
+@import "{{ '/assets/custom.css' | absolute_url }}";

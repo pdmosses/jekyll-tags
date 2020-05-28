@@ -19,9 +19,15 @@ Create the following files and folders:
   - `page.md` is included in the source page for a single tag; the text and layout
     can be freely updated
 
+- [`_includes/head.html`](https://github.com/pdmosses/tags/tree/master/_includes/head.html): 
+  this is a copy from the Minima theme, just adding a link to `assets/custom.css`
+      
 - [`_layouts/default.html`](https://github.com/pdmosses/tags/tree/master/_layouts/default.html):
   needs to be customised to show links to tag pages on tagged pages;
-  this is a copy from the Minima theme, just adding the inclusion of `tags/nav.html`
+  here, this is a copy from the Minima theme, adding the inclusion of `tags/nav.html`
+
+- [`assets/custom.css`](https://github.com/pdmosses/tags/tree/master/assets/custom.css): 
+  here,  this is a copy from the Minima theme, adding a link to `assets/custom.css`
 
 - [`tag/*`](https://github.com/pdmosses/tags/tree/master/tag/):
   

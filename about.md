@@ -24,13 +24,13 @@ Tags here are converted internally to so-called slugs. For example, the tags
 duplication of tags due to case differences. (Jekyll normally treats tags
 on posts literally.)
 
-The Liquid code implementing support for tags is theme-independent. To display
-tags on the pages (and posts) where they are used, however, requires some
-theme-dependent customisation. Adding display of tags to the basic Jekyll theme 
-[Minima](https://github.com/jekyll/minima) involved inserting one line in a copy
-of the default layout, and adding a few lines of CSS to style the display.
+The Liquid code implementing support for tags is essentially theme-independent.
+To display tags on the pages (and posts) where they are used, however, requires
+some theme-dependent customisation. Adding display of tags to the basic Jekyll 
+theme [Minima](https://github.com/jekyll/minima) involved inserting one line in
+a copy of the default layout, and adding some CSS to style the display.
 
-These web pages are generated on GitHub pages.
+These web pages are generated from Markdown sources on GitHub pages.
 
 ## User Guide
 

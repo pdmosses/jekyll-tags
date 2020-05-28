@@ -27,11 +27,11 @@
   {%- assign tag_page_url_9 = slug_9 | prepend: "/tag/" -%}
   {%- if site_tag_page_slugs contains slug_9 -%}
   {%- assign tag_page_9 = site.tag | where: "url", tag_page_url_9 | first %}
-  <dt>#<a href="{{ tag_page_url_9 }}" class="tag-link">{{ slug_9 }}</a></dt>
+  <dt>#<a href="{{ site.url }}{{ site.baseurl }}{{ tag_page_url_9 }}" class="tag-link">{{ slug_9 }}</a></dt>
   <dd>{{ tagged_size }} uses. {{ tag_page_9.description }}</dd>
   {%- else %}
   {%- assign tag_page_url_9 = slug_9 | prepend: "/tag/#" -%}
-  <dt>#<a href="{{ tag_page_url_9 }}" class="tag-link">{{ slug_9 }}</a></dt>
+  <dt>#<a href="{{ site.url }}{{ site.baseurl }}{{ tag_page_url_9 }}" class="tag-link">{{ slug_9 }}</a></dt>
   <dd>{{ tagged_size }} uses.</dd>
   {% endif -%}
 {%- endfor %}

@@ -27,7 +27,8 @@ Create the following files and folders:
   here, this is a copy from the Minima theme, adding the inclusion of `tags/nav.html`
 
 - [`assets/custom.css`](https://github.com/pdmosses/tags/tree/master/assets/custom.css): 
-  here,  this is a copy from the Minima theme, adding a link to `assets/custom.css`
+  this provides styling for lists of links to tags (displaying them inline),
+  tag clouds (adjusting the font and line height), and description lists.
 
 - [`tag/*`](https://github.com/pdmosses/tags/tree/master/tag/):
   

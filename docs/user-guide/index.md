@@ -48,7 +48,7 @@ Create the following files and folders:
 
 The current version of `tag/index.md` combines the tag cloud, the list of all
 tag descriptions, and the listings of any tags that do not have separate pages.
-To show these items on different pages, the Liquid code in `includes/tags/`
+To show these items on different pages, the Liquid code in `_includes/tags/`
 would need to be updated.
 
 ## Configuration
